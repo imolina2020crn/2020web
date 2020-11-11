@@ -1,0 +1,97 @@
+div {
+  width:800px;
+  height: 800px;
+  background-color: #BDB78B;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+p{
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  float: left;
+}
+
+.parell{
+  background-color: white;
+}
+
+.imparell{
+  background-color: black;
+}
+
+b {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+
+  background-color: white;
+  background-image: radial-gradient(white 0%, white 50%, silver 60%, black 100%);
+  background-size: 120% 120%;
+  background-repeat: no-repeat;
+  background-position: -15px -15px;
+}
+
+b:hover {
+  position: relative;
+  top: 100px;
+}
+
+.imparell b {
+  background-color: black;
+  background-image: radial-gradient( black 0%, black 50%, grey 60%);
+  background-size: 120% 120%;
+  background-repeat: no-repeat;
+  background-position: -15px -15px;
+}
+
+
+
+/* background-image: Degradats, linear-gradient */
+
+/* Element inline (a,b,u,s,i) afecten a les lineas, en canvi els elements en block podem donar-li dimensions. */
+
+/* .prim p:nth-child(2n) {
+background-color: x;
+}
+per pintar alternativament
+.secy p:nth-child(2n+1){
+  background-color: x;
+}
+*/
+
+/* PSEUDO-CLASsES.
+Etiquetes ---> genèrics p.ex <div>
+Classes ---> elements classificats subgrups p.ex .imparell
+ID ---> (elements identificats) Identificadors p. ex #reiblanc
+Pseudo-classes ---> estats dels elements p. ex  :hover Quan passem per sobre
+    :visited Quan l'hem visitat
+    :active Quan estem fent clic
+    :focus Quan està seleccionat
+    :checked Quan està chekat
+
+    :first-child Primer element
+    :last-child Últim element
+    :nth-child L'enèssim element (Element N)
+            N=1
+            N=2 <
+            N=3
+            ...
+            N=infinit
+
+
+            p.ex:
+            tots els elements parells: 2n
+          A B C D E F G...
+      n   1 2 3 4 5 6 7...
+      2n    x   x   x
+      3n      x     x
+      2n+1    x   x   x
+https://www.w3schools.com/css/css_pseudo_classes.asp
+
+<input type"checkbox"></input>
+ */
