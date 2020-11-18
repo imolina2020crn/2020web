@@ -234,7 +234,7 @@ a{
 }
 
 #primera{
-  height: 2.5rem;
+  height: 15rem;
   width: auto;
 }
 #segona{
@@ -273,8 +273,8 @@ a{
 
 #boto{
   /* --DIMENSIONS-- */
-  height: 4.5rem;
-  width: 4.5rem;
+  height: 3rem;
+  width: 3rem;
 
   /* --POSICIONS-- */
   position: fixed;
@@ -283,7 +283,7 @@ a{
 
   /* --TEXT-- */
   text-align: center;
-  line-height: 5rem;
+  line-height: 4rem;
   font-size: 3.125rem;
   color: white;
 
@@ -373,6 +373,18 @@ a{
   }
 
   .blanca {
-    background-color: yellow;
+    background-color: #FFF;
+  }
+
+  .verda {
+    background-color: #6C3;
+  }
+
+  .fosca {
+   background-color: #333;
+  }
+
+  .clara {
+    background-color: #EECE;
   }
 }
