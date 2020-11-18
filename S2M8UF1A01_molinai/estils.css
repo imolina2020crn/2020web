@@ -1,4 +1,4 @@
-@media screen and (min-width: 1280px)
+@media screen and (min-width: 960px)
 {
   /*
   De rems a pixels
@@ -182,7 +182,7 @@ cos pàgina: 16px 1 quadratí= 16px
 
 
 /* ---------- Disseny mòbil ------*/
-@media screen and (max-width: 1280px)
+@media screen and (max-width: 960px)
 {
   html{
     font-size: 100%;
@@ -310,4 +310,69 @@ a{
 .clara {
   background-color: #EECE;
 }
+}
+
+
+
+
+/* ----------------disseny per imprimir------ */
+@media print {
+  body {
+    width:210mm;
+    height: 297mm;
+    background-color: white;
+  }
+
+  div{
+    width: 95mm;
+    float: left;
+    margin: 0;
+  }
+  h1 {
+    font-size: 16pt;
+    margin: 0;
+  }
+
+  p {
+    margin:0;
+  }
+  #primera {
+    display: none;
+  }
+
+  #segona{
+    height: 80mm;
+  }
+
+  #tercera{
+    height: 80mm;
+  }
+
+  #quarta{
+    height: 80mm;
+  }
+
+  #cinquena{
+    height: 80mm;
+  }
+
+  #sisena{
+    height: 80mm;
+  }
+
+  #setena{
+    height: 80mm;
+  }
+
+  #vuitena {
+    display: none;
+  }
+
+  #boto {
+    display: none;
+  }
+
+  .blanca {
+    background-color: yellow;
+  }
 }
