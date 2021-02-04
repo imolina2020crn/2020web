@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ca" dir="ltr">
+<html lang="ca" dir="ltr" manifest="cache.manifest">
   <head>
     <meta charset="utf-8">
     <title>Menú</title>
@@ -13,8 +13,19 @@
     <link rel="icon" sizes="512x512" href="img/icon.png">
     <link rel="apple-touch-icon" href="img/icon.png">
 
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
+
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
     <style media="screen">
+      @@font-face {
+        font-family: 'Russo One';
+        src: url('fonts/russoregular.ttf') format('ttf'),
+        src: url('fonts/russoregular.woff') format('woff'),
+        src: url('fonts/russoregular.woff') format('woff2');  
+        font-weight: normal;
+        font-style: normal;
+      }
 
       #caixa {
         margin-left: 5%;
