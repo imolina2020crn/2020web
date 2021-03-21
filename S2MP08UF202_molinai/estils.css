@@ -1,0 +1,288 @@
+.cap {
+  margin: 0 auto;
+  width: 500px;
+  height: 700px;
+  background-color:#EEAA99 ;
+  border-radius: 100px 100px 35% 35%;
+}
+
+.cabell {
+  height: 150px;
+  background-color: #110000;
+  border-radius: 100px 100px 10px 10px;
+}
+
+.cabell .serrell {
+  height: 105px;
+  width: 100px;
+  background-color: #110000;
+  margin: 0 0;
+  position: relative;
+  top: 80px;
+  border-radius: 50%;
+  float:left;
+}
+
+.front {
+  height: 50px;
+  background-color: transparent;
+}
+
+.ulls {
+  height: 100px;
+  background-color: transparent;
+}
+
+.ull1 {
+  width: 140px;
+  height: 70px;
+  background-color:white;
+  border-radius: 6% 96% 6% 100%;
+  transform: translateX(55px) translateY(10px) rotate(-13deg);
+  box-shadow: -5px -5px #9B7B73;
+  float:left;
+}
+
+.ull2 {
+  width: 140px;
+  height: 70px;
+  background-color:white;
+  border-radius: 100% 6% 96% 6%;
+  transform: translateX(300px) translateY(15px) rotate(13deg);
+  box-shadow: -5px -5px #9B7B73;
+}
+
+.blanc {
+  width: 40px;
+  height: 50px;
+  background-color:black;
+  border-radius: 50%;
+  transform: translateX(50px) translateY(10px) rotate(13deg);
+}
+
+.blanco {
+  width: 40px;
+  height: 50px;
+  background-color:black;
+  border-radius: 50%;
+  transform: translateX(50px) translateY(10px) rotate(-13deg);
+}
+
+
+.ulls .celles {
+  widht: 25px;
+  height: 25px;
+}
+
+.ulls .celles .cella1 {
+  background-color: #110000;
+  height: 30px;
+  width: 200px;
+  float:left;
+  margin-left: 20px;
+}
+
+.ulls .celles .cella2 {
+  background-color: #110000;
+  height: 30px;
+  width: 200px;
+  float:right;
+  margin-right: 20px;
+}
+
+.nas {
+  height: 150px;
+  background-color: transparent;
+}
+
+.orejaizquierda {
+  width: 60px;
+  height: 160px;
+  background-color: #EEAA99;
+  transform: translateX(-25px) translateY(-190px);
+  border-radius: 0 0 0 20px;
+}
+
+.orejaderecha {
+  width: 60px;
+  height: 160px;
+  background-color: #EEAA99;
+  transform: translateX(465px) translateY(-350px);
+  border-radius: 0 0 20px 0px;
+}
+
+.pendiente {
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  background-color:  #E5E8E8;
+  transform: translateX(32px) translateY(130px);
+  box-shadow: 1px 1px black;
+}
+
+.cruz1 {
+  width:8px;
+  height:50px;
+  background-color: #E5E8E8;
+  transform: translateX(37px) translateY(128px);
+  box-shadow: 1px 1px black;
+}
+
+.cruz2 {
+  width:7px;
+  height:30px;
+  background-color: #E5E8E8;
+  transform: translateX(37px) translateY(80px) rotate(90deg);
+  box-shadow:  black;
+}
+
+.nariz {
+  width: 40px;
+  height: 140px;
+  background-color: transparent;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: -4px 2px black;
+  transform: translateX(26px) translateY(5px);
+}
+
+.agujero {
+  width: 40px;
+  height: 40px;
+  background-color: ;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 7px 1px black;
+  transform: translateX(10px) translateY(2px);
+}
+
+.boca {
+  height: 160px;
+  background-coor: pink;
+}
+
+.labio1 {
+  width: 170px;
+  height: 70px;
+  border-radius: 50%;
+  background-color:transparent;
+  box-shadow: 6px 12px black;
+  margin: 0 auto;
+  transform: translateY(65px) rotate(-10deg);
+}
+
+.barbeta {
+  height: 90px;
+  background-color: transparent;
+}
+
+.barbeta .barbilla1 {
+  height: 120px;
+  width: 180px;
+  background-color: #EEAA99;
+  border-radius: 50%;
+  transform: translateX(120px) translateY(-10px);
+  float:left;
+}
+
+.barbeta .barbilla2 {
+  height: 120px;
+  width: 180px;
+  background-color: #EEAA99;
+  transform: translateX(200px) translateY(-10px);
+  border-radius:50%;
+}
+
+.barbeta .barbilla1 .pelo {
+  width: 20px;
+  height: 20px;
+  background-color:transparent;
+  border-radius: 50px;
+  box-shadow: 0px 6px black;
+  float:left;
+}
+
+.barbeta .barbilla2 .pelo {
+  width: 20px;
+  height: 20px;
+  background-color:transparent;
+  border-radius: 50px;
+  box-shadow: 0px 6px black;
+  float:left;
+}
+
+.barbeta .barbilla1 .uno{
+    transform: translateY(80px) translateX(13px);
+}
+
+.barbeta .barbilla1 .dos{
+  transform: translateY(85px) translateX(13px);
+}
+
+.barbeta .barbilla1 .tres{
+  transform: translateY(90px) translateX(13px);
+}
+
+.barbeta .barbilla1 .cuatro{
+  transform: translateY(96px) translateX(13px);
+}
+
+.barbeta .barbilla1 .cinco{
+  transform: translateY(95px) translateX(13px);
+}
+
+.barbeta .barbilla1 .seis{
+  transform: translateY(80px) translateX(-55px);
+}
+
+.barbeta .barbilla1 .siete{
+  transform: translateY(85px) translateX(-55px);
+}
+
+.barbeta .barbilla1 .ocho{
+  transform: translateY(85px) translateX(-55px);
+}
+
+.barbeta .barbilla1 .nueve{
+  transform: translateY(75px) translateX(-130px);
+}
+
+.barbeta .barbilla2 .diez{
+  transform: translateY(-25px) translateX(40px);
+}
+
+.barbeta .barbilla2 .once{
+  transform: translateY(-20px) translateX(45px);
+}
+
+.barbeta .barbilla2 .doce{
+  transform: translateY(-22px) translateX(49px);
+}
+
+.barbeta .barbilla2 .trece{
+  transform: translateY(-24px) translateX(52px);
+}
+
+.barbeta .barbilla2 .catorce{
+  transform: translateY(-32px) translateX(54px);
+}
+
+.barbeta .barbilla2 .quince{
+  transform: translateY(-28px) translateX(-45px);
+}
+
+.barbeta .barbilla2 .dieciseis{
+  transform: translateY(-30px) translateX(-42px);
+}
+
+.barbeta .barbilla2 .diecisiete{
+  transform: translateY(-32px) translateX(-40px);
+}
+
+.barbeta .barbilla2 .dieciocho{
+  transform: translateY(-32px) translateX(-130px);
+}
+
+.barbeta .barbilla2 .diecinueve{
+  transform: translateY(-50px) translateX(120px);
+}
